@@ -3,20 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts links -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./style.css" rel="stylesheet" />
     <title>SIMPLY CHOCOLATE</title>
   </head>
   <body>
     <header>
       <div>
         <nav>
-          <a href="./index.html"> SIMPLY CHOCOLATE</a>
+          <a href="./index.html"
+            ><span class="text-italic">SIMPLY</span>&nbsp;CHOCOLATE</a
+          >
+          <svg class width="13" height="17">
+            <use href="./img/icon.svg#icon-title-chocolate"></use>
+          </svg>
           <ul>
             <li><a href="">Home</a></li>
             <li><a href="#how-made">How it’s made?</a></li>
             <li><a href="#reviews">Chocolate is loved</a></li>
           </ul>
         </nav>
-        <button></button>
+        <ul class="social-list">
+          <li class="social-list-item">
+            <a class="social-list-link" href>
+              <svg
+                class="social-list-icon"
+                aria-label="instagram icon"
+                width="24"
+                height="24"
+              >
+                <use href="./img/icon.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list-item">
+            <a class="social-list-link" href>
+              <svg
+                class="social-list-icon"
+                aria-label="twitter icon"
+                width="24"
+                height="24"
+              >
+                <use href="./img/icon.svg#con-twitter"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
     <main>
